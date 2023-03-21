@@ -15,7 +15,7 @@ const HomePage = () => {
 
       <div className="container  my-4">
         <div className="row pt-3 d-flex justify-content-between">
-          <div className="row post-main">
+          <div className="row ">
             {RoomData.map((data) => (
               <RoomCard key={data.id} data={data} />
             ))}
