@@ -20,7 +20,7 @@ const RoomPage = () => {
         </div>
       </div>
 
-      <div className="container main-body-width my-4">
+      <div className="container  my-4">
         <div className="row pt-3 d-flex justify-content-between">
           <div className="row post-main">
             {RoomData.map((data) => (
