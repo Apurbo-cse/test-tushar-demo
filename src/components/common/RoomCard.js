@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 const RoomCard = ({data}) => {
   return (
     <div className="col-md-3 mb-3" key={data.id}>
-          <div className="card p-2 " key={data.id}>
+          <div className="rounded-3 p-2 shadow " key={data.id}>
             <img
               src={data.image}
               className="card-img-top"
